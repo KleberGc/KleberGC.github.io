@@ -1,472 +1,404 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en">
 
 <head>
-  <!-- Add Your Title -->
-  <title> Kleber González - CV </title>
-
-  <!-- All Meta Tags -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-
-  <!-- All Link tags -->
-  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
-  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <!-- All script tags -->
-  <script>document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="js/vendor/jquery.hashchange.min.js"></script>
-  <script src="js/vendor/jquery.easytabs.min.js"></script>
-  <script src="js/main.js"></script>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162525286-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-162525286-1');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="This is the portfolio website of a Software Engineer, Kleber González!">
+    <meta name="keywords" content="kleber, gonzález, personal, portfolio, website, projects,
+	web developer, algorithms, computer science, research, databases, join algorithms">
+    <meta name="author" content="Kleber González	">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/aos.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/aos.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <title>Kleber González</title>
 </head>
 
-<!-- Start of Body Tag -->
-
-<body class="bg-fixed bg-1">
-  <div class="main-container">
-    <div class="main wrapper clearfix">
-
-      <!-- Header Start -->
-      <header id="header">
-        <div id="logo">
-          <h6>
-            Kleber González
-          </h6>
-          <h4>
-            Universitario / Programación Básica
-          </h4>
-        </div>
-      </header>
-
-      <!-- Text "hello world" -->
-      <header id="header">
-        <div id="helloworld">
-          <h1>
-            Curriculum Vitae
-          </h1>
-        </div>
-      </header>
-
-      <!-- Main Tab Container -->
-      <div id="tab-container" class="tab-container">
-
-        <!-- Tab List -->
-        <ul class='etabs'>
-
-          <li class='tab' id="tab-about">
-            <a href="#about">
-              <i class="icon-user"></i>
-              <span>
-                Sobre mí
-              </span>
-            </a>
-          </li>
-
-          <li class='tab'>
-            <a href="#resume">
-              <i class="icon-file-text"></i>
-              <span>
-                Skills
-              </span>
-            </a>
-          </li>
-
-          <li class='tab'>
-            <a href="#portfolio">
-              <i class="icon-heart"></i>
-              <span>
-                Proyectos
-              </span>
-            </a>
-          </li>
-
-          <li class='tab'>
-            <a href="#contact">
-              <i class="icon-envelope"></i>
-              <span>
-                Contacto
-              </span>
-            </a>
-          </li>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="56">
+<nav class="navbar navbar-custom navbar-expand-lg navbar-dark justify-content-end fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#about">ACERCA</span></a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#skills">SKILLS</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#experience">EXPERIENCIA</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#education">EDUCACION</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#leadership">LEADERSHIP</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#contact">CONTACTO</a>
+            </li>
         </ul>
-        <!-- End Tab List -->
-
-        <!-- ----------------------------------------------------------------------------------- -->
-        <!-- Code for differents Tabs strat from here. -->
-        <div id="tab-data-wrap">
-
-          <!-- About Tab Data -->
-          <div id="about">
-            <section class="clearfix">
-              <div class="g2">
-                <div class="photo">
-                  <img src="./images/my.jpg" alt="Your alt text">
-                </div>
-                <div class="info">
-                  <h2>
-                    <p></p>
-                    Kleber González
-                  </h2>
-                  <h4>
-                    Estudiante de Ingeniería en Sistemas Computacionales
-                  </h4>
-                  <p>
-                    <em>Organizado y flexible, apasionado por el conocimiento de las
-                        nuevas ciencias de la tecnología, dispongo de conocimientos en
-                        la gama de programación y marketing. Excelente control del
-                        tiempo y la solución de problemas. Muy hábil para el manejo de
-                        proyectos múltiples con gran desempeño y precisión.</em> 
-                  </p>
-                  <br>
-                    <p>
-                        <h3>Experiencia</h3> 
-                        <hr size="2px" width="100%" noshade="noshade" align="left" />
-                        <b><em>2021-05 - Presente</em></b>
-                        <p>Negocio Propio, Guayaquil</p>
-                        <b>Programador Jr. (Básico)</b>
-                        <br>
-                        <br>
-                        <ul>
-                            <li>Completé la documentación, reconociendo las discrepancias.</li> 
-                            <li>Trabajé de manera efectiva en entornos rápidos.</li> 
-                            <li>Organizado y detallista con una sólida ética de trabajo.</li> 
-                            <li>Automotivado, con un fuerte sentido de responsabilidad
-                            personal.</li> 
-                        </ul>
-                        <hr size="2px" width="100%" noshade="noshade" align="left" />
-                        <b><em>2022-02 - Presente</em></b>
-                        <p>Negocio Propio, Guayaquil</p>
-                        <b>Diseñador Gráfico Como Freelancer</b>
-                        <br>
-                        <br>
-                        <ul>
-                            <li>Colaboré en las operaciones diarias, trabajando de manera
-                                eficiente y productiva con todos los miembros del equipo.</li> 
-                            <li>Desarrollé y mantuve relaciones laborales corteses y efectivas.</li> 
-                            <li>Demostré un alto nivel de iniciativa y creatividad al abordar
-                                tareas difíciles.</li> 
-                        </ul>
-                        <hr size="2px" width="100%" noshade="noshade" align="left" />
-                        <b><em>2023-03 hasta 2023 - 05</em></b>
-                        <br>
-                        <p>Catedra de la Unesco - Dpto. de la Universidad Politécnica Salesiana</p>
-                        <b>Diseñador & Modelado 3D</b>
-                        <br>
-                        <br>
-                        <ul>
-                            <li>Demostré éxito al trabajar dentro de plazos ajustados y en un entorno
-                                de ritmo acelerado.</li> 
-                            <li>Demostré un alto nivel de iniciativa y creatividad al abordar tareas
-                                difíciles.</li> 
-                            <li>Adaptable y competente en aprender nuevos conceptos
-                                rápidamente y de manera eficiente.</li> 
-                                <li>Entregué servicios a ubicaciones de clientes dentro de plazos
-                                    específicos.</li>
-                        </ul>
-                        <hr size="2px" width="100%" noshade="noshade" align="left" />
-                        <br>
-                        <br>
-                        <h3>Logros Académicos</h3> 
-                        <ul>
-                          <li>Bachiller Bioquímico - Graduado en UEFG, <b>Unidad Educativa Fiscal "Guayaquil"</b></li>
-                          <li>Estudiante del <b>Bachillerato Internacional</b></li>
-                          <li>Diseñador Gráfico Jr.</li>
-                          <li>Investigador del grupo Pro 3D, <b>Cátedra Unesco - Proyecto MemoTech</b></li>
-                          <li>Estudiante en la <b>Universidad Politécnica Salesiana</b></li>
-                          <li>Ingeniería en Ciencias Computacionales, <b>5to Semestre Actual</b></li>
-                          <li>Desarrollador Web, <b>Well Formed</b></li>
-                        </ul>
-
-                  </p>
-                </div>
-              </div>
-
-              <div class="g1">
-                <div class="main-links sidebar">
-                  <ul>
-                    <li>
-                      <a href="#resume">
-                        Ver Skills
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#portfolio">
-                        Ver Proyectos
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#contact">
-                        Contáctame para tus nuevos proyectos
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="break">
-              </div>
-              <div class="contact-info">
-                <div class="g1">
-                  <div class="item-box clearfix">
-                    <i class="icon-envelope"></i>
-                    <div class="item-data">
-                      <h3>
-                        <a href="mailto:write@klebergonzalezib@gmail.com">
-                          klebergonzalezib@gmail.com
-                        </a>
-                      </h3>
-                      <p>
-                        Email Address
-                      </p>
+    </div>
+</nav>
+<div id="container">
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"
+               poster="media/background_image.jpg">
+            <source src="media/background_video.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <div class="profile">
+                        <img class="circular" src="media/my.jpg" alt="Profile Picture"/>
+                        <h1>Kleber González</h1>
+                        <span class="subheading">Ingeniería Computacional</span>
                     </div>
-                  </div>
-                </div>
-                <div class="g1">
-                  <div class="item-box clearfix">
-                    <i class="icon-facebook"></i>
-                    <div class="item-data">
-                      <h3>
-                        <a href="https://www.facebook.com/Spiderart1">
-                          Kleber González
-                        </a>
-                      </h3>
-                      <p>
-                        Facebook Profile
-                      </p>
+                    <div class="down-arrow" id="down-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                             x="0px" y="0px" width="43px" height="33px" viewBox="0 0 43 33"
+                             enable-background="new 0 0 43 33" xml:space="preserve">
+                              <g>
+                                  <path fill="#FFFFFF"
+                                        d="M0.093,1.294c0,3.176,0,7.686,0,8.77l21.408,21.502l21.406-21.502c0-0.836,0-6.08,0-8.77L21.501,22.796   L0.093,1.294z"></path>
+                              </g>
+                        </svg>
                     </div>
-                  </div>
                 </div>
-                <div class="g1">
-                  <div class="item-box clearfix">
-                    <i class="icon-twitter"></i>
-                    <div class="item-data">
-                      <h3>
-                        <a href="https://twitter.com/Cupsfire_gye">
-                          Kleber González
-                        </a>
-                      </h3>
-                      <p>
-                        Twitter Profile
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <!-- End About Tab Data -->
-          <!-- ----------------------------------------------------------------------------------- -->
-          <!-- skills Tab Data -->
-          <div id="resume">
-            <section class="clearfix">
-              <div class="g2">
-                <h3>
-                  Programación
-                </h3>
-                <div class="meter emerald">
-                  <span style="width: 65%">
-                    <span>
-                      Python
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 85%">
-                    <span>
-                      Java
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 55%">
-                    <span>
-                      CSS
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 65%">
-                    <span>
-                      SQL
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 65%">
-                    <span>
-                      PL/SQL
-                    </span>
-                  </span>
-                </div>
-                <div class="break"></div>
-              </div>
-
-              <div class="g1">
-                <h3>
-                  Skills
-                </h3>
-                <div class="meter emerald">
-                  <span style="width: 70%">
-                    <span>
-                      Diseño web
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 85%">
-                    <span>
-                      Ilustración
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 80%">
-                    <span>
-                      Marketing
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 70%">
-                    <span>
-                      Documentación
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 90%">
-                    <span>
-                      Idiomas
-                    </span>
-                  </span>
-                </div>
-              </div>
-
-              <div class="g2">
-                <h3>
-                  Hobbies
-                </h3>
-                <span class="label label-info">Creación de Videos</span>
-                <span class="label label-info">Diseño Gráfico</span>
-                <span class="label label-info">Automotivación</span>
-                <span class="label label-info">Cursos Online</span>
-              </div>
-            </section>
-          </div>
-
-          <!-- End skills Tab Data -->
-          <!-- ----------------------------------------------------------------------------------- -->
-          <!-- Projects Tab Data -->
-          <div id="portfolio">
-            <section class="clearfix">
-              <div class="project-section">
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="images/pexels-nemuel-sereti-6424590.jpg" alt="homep">
-                  </div>
-
-                  <p class="project-title">Home Practicing</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="images/pexels-miguel-á-padriñán-1591061.jpg" alt="´html">
-                  </div>
-                  
-                  <p class="project-title">HTML5</p>
-                </div>
-                <div class="project-container">
-                  </div>
-                 
-              <div id="modal-wrapper" class="modal">
-
-                <form class="modal-content animate">
-
-                  <div class="imgcontainer">
-                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
-                    <img src="images/pexels-kevin-ku-577585.jpg" alt="project" class="avatar">
-                    <h1 class="project_details" style="text-align:center">Detalles del Proyecto</h1>
-                  </div>
-
-                  <div class="container">
-                    <input type="text" placeholder="Project Name" name="uname" readonly>
-                    <textarea class="project_description" rows="3" placeholder="Project Description" readonly></textarea>
-                    <input type="url" placeholder="Project Link"readonly>
-                    <input type="text" placeholder="Languages used" readonly>
-                    <button class="project_submit" type="submit">Cargar</button>
-                  </div>
-
-                </form>
-
-              </div>
-            </section>
-          </div>
-          <!-- End Projects tab -->
-          <!-- ----------------------------------------------------------------------------------- -->
-          <!-- Contact Tab Data -->
-          <div id="contact">
-            <section class="clearfix">
-              <div class="g1">
-                <div class="sny-icon-box">
-                  <div class="sny-icon">
-                    <i class="icon-globe"></i>
-                  </div>
-                  <div class="sny-icon-content">
-                    <h4>
-                      Dirección
-                    </h4>
-                    <p>
-                      Pepito Gallegos Lara y Catalunia
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="g1">
-                <div class="sny-icon-box">
-                  <div class="sny-icon">
-                    <i class="icon-phone"></i>
-                  </div>
-                  <div class="sny-icon-content">
-                    <h4>
-                      E-mail
-                    </h4>
-                    <p>
-                      klebergonzalezib@gmail.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="g1">
-                <div class="sny-icon-box">
-                  <div class="sny-icon">
-                    <i class="icon-user"></i>
-                  </div>
-                  <div class="sny-icon-content">
-                    <h4>
-                      Info.
-                    </h4>
-                    <p>
-                      No tardaré en contactarme de vuelta von usted
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="break"></div>
-            </section>
-          </div>
-          <!-- End Contact Data -->
-          <!-- ----------------------------------------------------------------------------------- -->
+            </div>
         </div>
-      </div>
-</body>
+    </header>
+    <section id="about" class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mx-auto text-justify">
+                    <h4 class="text-center">Hola, a todos!</h4>
+                    <p>Soy Kleber, estudiante de Ingeniería en Sistemas Computacionales en la 
+                        <a target="_blank" href="https://www.ups.edu.ec/">Universidad Politéctica Salesiana</a>, Ecuador,
+                        Guayaquil, Campus Centenario. Como parte de mis proyectos, he recibido asistencia por parte del mi tutor el 
+                        <a target="_blank" href="https://pure.ups.edu.ec/es/persons/guillermo-omar-pizarro-vasquez-3">Mgs. Guillermo Pizarro.</a>
+                        Mi automotivación parte de la práctica para crear nuevos diseños implementado lo que se estudie de manera autónoma.</p>
+                    <p>He trabajado de manera autónoma desde el 2020 como programador remoto, asi tambien domino temas de marketing y diseños 
+                        usando principalmente el entrono de Adobe (Ilustrator, Photoshop, After Effects, entre otros.).</p>
+                    <p>Con mi anterior educación y experiencia en ingeniería de software, ahora aspiro explorar e
+                        investigar en el campo para hacer contribuciones significativas. No dude en comunicarse si esto le ¡suena interesante!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="pt-5">
+        <div class="container">
+            <div class="h4 text-center mb-4">Skills</div>
+            <div class="card align-items-center">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <table class="table">
+                                <tbody>
+                                <tr>
+                                    <td>Programming:</td>
+                                    <td><span class="badge badge-info">Java</span>
+                                        <span class="badge badge-info">C</span>
+                                        <span class="badge badge-info">Python</span>
+                                        <span class="badge badge-info">HTML / CSS</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Herramientas:</td>
+                                    <td><span class="badge badge-info">Ilustrator</span>
+                                        <span class="badge badge-info">Photoshop</span>
+                                        <span class="badge badge-info">Adobe Premier</span>
+                                        <span class="badge badge-info">After Effects</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Relacionado a DataBase:</td>
+                                    <td><span class="badge badge-info">MySQL</span>
+                                        <span class="badge badge-info">PostgreSQL</span>
+                                        <span class="badge badge-info">Oracle</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Misc.:</td>
+                                    <td><span class="badge badge-info">Google Analytics</span>
+                                        <span class="badge badge-info">Udemy</span>
+                                        <span class="badge badge-info">Ofimática</span></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-3 align-self-center text-center">
+                        <div class="card-body">
+                            <div>
+                                <p>
+                                    <a href="media/Kleber González - CV.pdf" class="button btn btn-info text-white"
+                                       target="_blank"><i
+                                            class="fa fa-eye"></i> Résumé</a>
+                                </p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="pt-5">
+        <div class="container">
+            <div class="h4 text-center mb-4">Work Experience</div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-pink" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="d-flex paddings h-100 text-center align-items-center">
+                            <div class="w-100 text-white">
+                                <p>Programador Jr. (Básico)</p>
+                                <p>Mayo - 2021 hasta Presente</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body">
+                            <p>
+                                <ul>
+                                    <li>Completé la documentación, reconociendo las discrepancias y abordándola de inmediato para su resolución.</li>
+                                    <li>Trabajé de manera efectiva en entornos rápidos.</li>
+                                    <li>Organizado y detallista con una sólida ética de trabajo.</li>
+                                    <li>Automotivado, con un fuerte sentido de responsabilidad personal.</li>
+                                </ul>
+                            </p>
+                            <span>Tech's. usados: Java, HTML, CSS, Python.
+                                framework</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-pink" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="d-flex paddings h-100 text-center align-items-center">
+                            <div class="w-100 text-white">
+                                <p>Diseñador Gráfico Como Freelancer</p>
+                                <p>Febrero - 2022 hasta el presente</p>
+                                <a class="text-white" href="https://ticad.blog.ups.edu.ec/catedra-unesco" target="_blank">
+                                    <img width="32" src="media/eq_logo.svg">Cátedra UNESCO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body">
+                            <p>
+                                <ul>
+                                    <li>Demostré éxito al trabajar dentro de plazos ajustados y en un entorno de ritmo
+                                        acelerado.</li>
+                                    <li>Demostré un alto nivel de iniciativa y creatividad al abordar tareas difíciles.
+                                        Adaptable y competente en aprender nuevos conceptos rápidamente y de
+                                        manera eficiente.</li>
+                                    <li>Entregué servicios a ubicaciones de clientes dentro de plazos específicos.</li>
+                                </ul>
+                            </p>
+                            <span>Tech's. usados: Ultimaker Cura - 3D, Blender,AutoCAD.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="pt-5">
+        <div class="container">
+            <div class="h4 text-center mb-4">Educación</div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-pink" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="d-flex h-100 paddings text-center align-items-center">
+                            <div class="w-100 text-white">
+                                <a class="text-white" href="https://oregonstate.edu/" target="_blank">
+                                    <img width="128" src="media/osu.svg"></a>
+                                <p>Oregon State University</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body">
+                            <p>Master of Science in Computer Science</p>
+                            <p>Sept. 2019 - June. 2021 (Expected)</p>
+                            <p>GPA: 3.92 / 4.0</p>
+                            <span class="badge badge-light">Courses:</span>
+                            <span class="badge badge-light">CS 533: Intelligent Agents and Decision Making</span>
+                            <span class="badge badge-light">CS 534: Machine Learning</span>
+                            <span class="badge badge-light">CS 519: Applied Machine Learning</span>
+                            <span class="badge badge-light">CS 599: Algorithms - Design, Analysis, and Implementations</span>
+                            <span class="badge badge-light align-middle">CS 561: Software Engineering Methods</span>
+                            <span class="badge badge-light">CS 562: Software Project Management</span>
+                            <span class="badge badge-light">CS 540: Database Management Systems</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-pink" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="d-flex h-100 paddings text-center align-items-center">
+                            <div class="w-100 text-white">
+                                <a class="text-white" href="https://www.coep.org.in/" target="_blank">
+                                    <img width="95" src="media/coep-logo.svg"></a>
+                                <p>College Of Engineering Pune</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body">
+                            <p>Bachelor of Technology in Information Technology</p>
+                            <p>June. 2012 - May. 2016</p>
+                            <span class="badge badge-light">Research Publication:</span>
+                            <span class="badge badge-light">
+                                <a href="https://ieeexplore.ieee.org/document/7914958" target="_blank">Intelligent Traffic Signal Synchronization Using Fuzzy Logic and Q-Learning</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="leadership" class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ml-auto mr-auto">
+                    <div class="h4 text-center mb-4">Leadership &amp; Involvement</div>
+                    <div>
+                        <p>I love being part of communities, connecting with people of mutual interests, sharing with
+                            others the knowledge I have, and learning from others. Here are some of the organizations
+                            I'm really proud to be a part of:</p>
+                    </div>
+                    <div class="ml-auto mr-auto gallery">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="cc-leadership-image img-raised" data-aos="fade-up"
+                                     data-aos-anchor-placement="top-bottom">
+                                    <a target="_blank" href="https://www.facebook.com/Leaninpune/">
+                                        <figure class="cc-effect">
+                                            <img src="media/leadership-1.jpg" alt="Lean2Lead Pune"/>
+                                            <figcaption>
+                                                <div class="h4">Lean2Lead Pune - Women with Will to Lead</div>
+                                                <p>Founding Member</p>
+                                                <p>August 2015 - Present</p>
+                                            </figcaption>
+                                        </figure>
+                                    </a></div>
+                            </div>
+                            <div class="col-md-6 align-self-center">
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card-body text-justify">
+                                                <span>During my undergraduate education, I came across a book <a
+                                                        href="https://leanin.org/book" target="_blank">Lean In</a> by <a
+                                                        href="https://en.wikipedia.org/wiki/Sheryl_Sandberg"
+                                                        target="_blank">Sheryl Sandberg</a>, the COO at Facebook.
+                                                    This book had a huge impact on me as it empowers women to sit at the
+                                                    table and take on those leadership roles. Through the
+                                                    <a href="https://leanin.org/" target="_blank">Lean In Foundation</a>,
+                                                    I connected with five other women who were equally influenced by
+                                                    Sheryl. We started Lean2Lead Pune which initially was a group of
+                                                    women with will to succeed in their careers. Today it's a massive
+                                                    community of 400+ ambitious humans from various age groups and
+                                                    genders. We conduct monthly meets wherein a speaker guides the
+                                                    community with their experiences and advice. I'm proud to be the
+                                                    youngest founding member at Lean2Lead Pune and this platform has
+                                                    helped me to be a better version of me.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="cc-leadership-image img-raised" data-aos="fade-up"
+                                     data-aos-anchor-placement="top-bottom">
+                                    <a target="_blank" href="https://www.ted.com/tedx/events/37454">
+                                        <figure class="cc-effect">
+                                            <img src="media/leadership-2.jpg" alt="TEDxOregonStateU 2020"/>
+                                            <figcaption>
+                                                <div class="h4">TEDxOregonStateU 2020</div>
+                                                <p>Curator</p>
+                                                <p>January 2020 - Present</p>
+                                            </figcaption>
+                                        </figure>
+                                    </a></div>
+                            </div>
+                            <div class="col-md-6 align-self-center">
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card-body text-justify">
+                                                <span>Oregon State University is conducting a brand new
+                                                    <a href="https://www.ted.com/about/programs-initiatives/tedx-program"
+                                                       target="_blank">TEDx</a> event in May
+                                                    2020. With a team of four curators, including me, we determine a
+                                                    list of potential speakers from a bunch of applications, confirm the
+                                                    speaker line-up, design a timeline for speakers to write and
+                                                    practice their speech outlines, craft their speeches as per our
+                                                    ideas. The theme for the year 2020 is Roaring 20's and it's truly
+                                                    amazing to have a diverse range of topics.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+</div>
+</div>
+<footer class="footer" id="contact">
+    <div class="container text-center">
+        <div class="h4 text-center mb-4">Contact me</div>
+        <p>Drop me an email or connect via LinkedIn! I'd be glad to hear from you!</p>
+        <a class="cc-email btn btn-link" href="mailto:kgonzalezc4@est.ups.edu.ec">
+            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+        <a class="cc-github btn btn-link" href="https://github.com/KleberGc" target="_blank">
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a class="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/kleber-gonzález-collaguaso/" target="_blank">
+            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <div class="text-center text-muted">
+        <span class="badge badge-light copyleft">&copy;</span>
+        <span class="badge badge-light">You may use this template.</span>
+    </div>
+</footer>
+</body>
 </html>
